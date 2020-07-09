@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    border-sizing:border-box;
+    font-family:sans-serif;
+    
+    
+  
+  }
+  
+  header{
+    display:flex;
+    padding-top:15px;
+  }
+  
+  
+  body{
+    
+    height:100vh;
+    width:100vw;
+    display:flex;
+    max-width:100vw;
+    max-height:100vh;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body { 
+          flex-direction: column;
+    }
+    
+  }
+  
+  
+  img{ margin-left:20px;
+    border-radius:50%;
+  }
+  .h1 {
+    padding-top:40px;
+    margin-left:25px;
+  }
+  
+  .info {
+    padding:20px;
+  }
+  
+  .main{
+    width:70%;
+    background:#e3eafa;
+  }
+  
+  
+  @media only screen and (max-width: 600px) { 
+    
+    .main {
+      width:100%;
+   }
+  }
+  
+  .aside{
+    width:30%;
+   background-color:#121b30;
+  }
+  
+  @media only screen and (max-width: 600px) { 
+    
+    .aside {
+      width:100%;
+   }
+  }
+  
+  .icon {
+   
+    width:1.875rem;
+    height:1.875rem;
+  }
+  
+  .icon-2 {
+   
+    margin-top:1.875rem;
+  }
+  
+  
+  li {
+    list-style:none;
+  }
+  
+  
+  
+  .ultima {
+    padding-left:0.625rem;
+    padding-top:5rem;
+    color:white;
+  }
+  .list-1 {
+    
+    padding:0.125rem;
+    
+  }
+  
+  .list-2 {
+    margin-left:0.625rem;
+    padding:0.313rem;
+    
+    text-decoration:underline;
+  } 
+    
+  }
+  
+  .dois{
+    padding-left:0.625rem;
+    padding-top:2.5rem;
+    color:white;
+  }
+    .contato { 
+     
+      margin-bottom:0.438rem;
+      
+    }
+  
+  .conhec {
+    margin-bottom:0.438rem;
+    margin-left:0.625rem;
+    margin-top:4.063rem;
+  }
